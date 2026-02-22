@@ -79,6 +79,13 @@ IAM permissions:
 -> users and groups can be assigned  JSON document called policies
 
 
+### What is AWS?
+
+  AWS(Amazon Web Services) is a cloud provider.
+  AWS can provide you with servers and services 
+
+
+
 
 
 
