@@ -86,6 +86,11 @@ IAM permissions:
 
 
 
+### AWS factors might impact the regions
+
+
+
+
 
 
 
