@@ -77,7 +77,7 @@ switch: it takes the Data packet and sent it to correct server/client on your ne
 
 IAM permissions:
 -> users and groups can be assigned  JSON document called policies
-
+users can belongs to group
 
 ### What is AWS?
 
