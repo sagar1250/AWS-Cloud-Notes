@@ -87,9 +87,30 @@ users can be merged and form a group but groups may not have other groups.
   AWS(Amazon Web Services) is a cloud provider.
   AWS can provide you with servers and services 
 
+### IAM: Permissions
 
+Here, users and groups were assigned a JSON document called policies
 
-### AWS factors might impact the regions
+##### Sample example
+<img width="460" height="415" alt="image" src="https://github.com/user-attachments/assets/4a209573-5b2d-4f2d-91ab-825c4cc415be" />
+
+Here we can see, as per my undersanding we have two parts, one we can consider as the head and the other as the body
+Head = version
+Body = statement
+Here, version means date we can say as per the image.
+When we go to statment section, we  have other fields as well. Let's break down all the things one by one.
+
+I can see there are three keywords in common. Effect, Action, Resources
+
+Effect can be some thing like allowing or disabling the resoures to be used by the user or the group.
+
+Action is is some thing we are trying to access a particular resource from AWS.
+Resources are some thing those are other extensions of actions, as per my understanding.
+
+In AWS we dont allow user to use all ths servces because of traffic. and also a new user can launch a service and it will costs you a lot of money.
+
+In AWS, we apply the least privilege principle. We wont give more permission then the uesr need.
+
 
 
 
