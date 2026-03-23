@@ -77,7 +77,10 @@ switch: it takes the Data packet and sent it to correct server/client on your ne
 
 IAM permissions:
 -> users and groups can be assigned  JSON document called policies
-users can belongs to group
+users can belongs to group, there can be an individual users may or may not belongs to the group.
+Root account is creted by defult, should not be or shared
+IAM stands for identity and access management, It is a global service.
+users can be merged and form a group but groups may not have other groups. 
 
 ### What is AWS?
 
