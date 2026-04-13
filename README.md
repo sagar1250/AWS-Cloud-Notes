@@ -114,7 +114,7 @@ In AWS, we apply the least privilege principle. We wont give more permission the
 
 
 
-
+IAM is a global service
 
 
 
