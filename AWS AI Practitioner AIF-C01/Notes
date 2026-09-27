@@ -1,0 +1,17 @@
+Raw interet data -> Pre-training( millions of GPUs) -> Base Foundation Model
+
+What actual a base model:
+-> It is the master of language and general reasoning. It knows what a noun is and how to speak english, genral world history and basic logic.
+
+What is base model is not:
+it does not know the company privalte rules, dosnt follow prefered formatinmg reliably, it can do expensive / slow for high volume of task. it can stumble on multy - step reasoning.
+
+
+To fix this gaps we no need to rebulid the model for zero, We can custiomize it. Amazon bedrock provides three layers ways to do this:
+
+1.Supervised Fine - Tuning(SFT)
+2. reinforcement Fine-Tuning(RFT)
+3.Model Distillation
+
+1.SFT:
+->
